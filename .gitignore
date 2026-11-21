@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# Generated reports and private data
+reports/
+backups/
+*.tar
+*.tar.gz
+*.zip
+
+# Local configuration
+config/local*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Generated AI reports
+ai-analyst/reports/
+ai-analyst/input/

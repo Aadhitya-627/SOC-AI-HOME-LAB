@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-11-21T10:00:00+00:00",
+  "model": "qwen3:1.7b",
+  "alert": {
+    "timestamp": "2026-11-21T09:55:00+00:00",
+    "rule": {
+      "id": "5402",
+      "level": "3",
+      "description": "Example administrative privilege event",
+      "groups": ["syslog", "authentication"]
+    },
+    "agent": {
+      "name": "example-linux-endpoint",
+      "id": "001"
+    },
+    "location": "example",
+    "decoder": {
+      "name": "example-decoder"
+    },
+    "data": {
+      "user": "example-user",
+      "command": "example-administrative-command"
+    }
+  },
+  "analysis": "1. Summary: An example administrative privilege event was recorded. 2. Security significance: This may represent routine administration. 3. Recommended investigation checks: Verify the user, command and event context. 4. Limitations and uncertainty: This example does not establish malicious activity.",
+  "review_status": "Requires human review",
+  "note": "AI output is advisory and is not a verified security determination.",
+  "generation_time_seconds": 12.5
+}

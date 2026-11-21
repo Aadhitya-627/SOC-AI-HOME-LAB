@@ -1,0 +1,2 @@
+# No third-party Python packages required.
+# Uses Python standard library and the local Ollama HTTP API.
