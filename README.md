@@ -172,3 +172,40 @@ This project is intended for educational and defensive cybersecurity purposes in
 **Aadhitya-627**
 
 GitHub: https://github.com/Aadhitya-627
+
+## Project Screenshots
+
+### SOC Security Overview
+The main Grafana dashboard displaying the SOC monitoring overview.
+
+![SOC Overview](docs/screenshots/soc-overview.png)
+
+### Wazuh Dashboard
+Wazuh agent monitoring and endpoint status.
+
+![Wazuh Dashboard](docs/screenshots/wazuh-dashboard.png)
+
+### File Integrity Monitoring
+Wazuh file integrity monitoring events.
+
+![FIM Events](docs/screenshots/fim-events.png)
+
+### SOC Infrastructure Health
+Health status of the monitoring services and AI integration.
+
+![Infrastructure Health](docs/screenshots/infrastructure-health.png)
+
+### AI Alert Investigation
+AI-generated analysis of a Wazuh security alert.
+
+![AI Investigation](docs/screenshots/ai-investigation.png)
+
+### AI Report JSON
+Example of the structured AI investigation report.
+
+![AI Report JSON](docs/screenshots/ai-report-json.png)
+
+### Docker Services
+Running Docker containers supporting the SOC environment.
+
+![Docker Services](docs/screenshots/docker-services.png)
